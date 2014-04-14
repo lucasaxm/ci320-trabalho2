@@ -1,0 +1,20 @@
+Nome: Lucas Affonso Xavier de Morais
+GRR: GRR20118372
+
+Trabalho em Ruby sobre o uso de relações de tabelas em bancos de dados usando ActiveRecord.
+
+As seguintes relações são usadas nesse trabalho:
+	one-to-one: 		trainer has one bag, bag belongs to trainer.
+	one-to-many: 		pokemon belongs to trainer, trainer has many pokemons
+	many-to-many: 		pokemon has many moves, move has many pokemons.
+
+Existe um exemplo com elementos nas tabelas já incluso nos arquivos e scripts que podem ser
+usados para manipular os arquivos.
+
+Execute
+	"./executa.sh"			-	Para iniciar o programa.
+	"./criabanco.sh"		-	Para criar um novo banco de dados com tabelas vazias.
+	"./fazbackup.sh"		-	Para criar um backup do arquivo de banco de dados PokemonRuby.sqlite3
+								que será chamado PokemonRuby.sqlite3.backup.
+	"./restaurabackup.sh	-	Para substituir o arquivo PokemonRuby.sqlite3 pelo arquivo
+								PokemonRuby.sqlite3.backup.
